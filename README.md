@@ -35,6 +35,26 @@
 ——eg: response.xpath('//div[@class="task-symbols"]/div[@class="symbol clm"]/a/code/text()')  
 3、scrapy crawl spider_name—执行
 
+## 使用介绍
+该工程包括两个项目  
+
+### 爬虫项目
+爬取所有的苹果官方object-c下的API相关信息，并保存在数据库中
+
+使用
+1、切换到工程下的iOSAPI目录下  
+2、执行scrapy crawl objcApi  
+会在当前目录下生成IOSAPI.db数据库文件  
+该数据库保存了所有API的相关信息
+
+### 扫描iOS项目
+支持扫描单个文件或者项目目录
+
+使用
+1、切换到工程下的scan_proj目录下  
+2、执行python main.py 需要扫描的项目路径 结果保存文件  
+注：路径可以是单个文件名或者项目目录
+
 ### 数据库：sqlite轻量级数据库
 
 ## 对ios代码规范的建议：
