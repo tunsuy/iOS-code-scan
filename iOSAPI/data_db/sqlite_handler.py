@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import sqlite3
-import os
+import os, sys
 
 from iOSAPI.data_db.dbconn_pool import Pool  		
 
 class IOSAPIdb(object):
 	pool = None
-	db_path = "/Users/tunsuy/Documents/ScrapyProjects/iOSAPI/iOSAPI.db"
+
+	db_path = "iOSAPI.db"  #在当前目录下生成数据库文件
 
 	def __init__(self):
 		print("start init IOSAPIdb...")
