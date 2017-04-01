@@ -44,8 +44,8 @@
 爬取所有的苹果官方object-c下的API相关信息，并保存在数据库中
 
 使用  
-1、切换到工程下的iOSAPI目录下  
-2、执行scrapy crawl objcApi  
+1、切换到工程下的iOSAPI目录下  
+2、执行scrapy crawl objcApi  
 会在当前目录下生成IOSAPI.db数据库文件  
 该数据库保存了所有API的相关信息
 
@@ -53,8 +53,8 @@
 支持扫描单个文件或者项目目录
 
 使用  
-1、切换到工程下的scan_proj目录下  
-2、执行python main.py 需要扫描的项目路径 结果保存文件  
+1、切换到工程下的scan_proj目录下  
+2、执行python main.py 需要扫描的项目路径 结果保存文件  
 注：路径可以是单个文件名或者项目目录
 
 ## 对ios代码规范的建议：
